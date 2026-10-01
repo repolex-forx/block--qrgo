@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/qrgo/commit/450bf8305aa4a11e56b380686839b41dfe2efcda",
       "git:hexsha": "450bf8305aa4a11e56b380686839b41dfe2efcda",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "1.4.2"
     },
     {
