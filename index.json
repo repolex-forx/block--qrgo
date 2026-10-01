@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "qrgo",
+  "versions": [
+    {
+      "commit": "450bf8305aa4a11e56b380686839b41dfe2efcda",
+      "tag": "main",
+      "parsed_at": "2026-10-01T08:31:10.464596+00:00"
+    }
+  ]
+}
