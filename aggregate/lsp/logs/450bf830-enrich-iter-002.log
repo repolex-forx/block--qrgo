@@ -1,0 +1,26 @@
+[2026-10-02T10:50:24Z] === ENRICH ITERATION 2 START | repo=block/qrgo sha=450bf830 ===
+[2026-10-02T10:50:24Z] [iter=2] PHASE START: enrich repo=block/qrgo sha=450bf830 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/450bf830-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/450bf8305aa4a11e56b380686839b41dfe2efcda.nq.gz
+[2026-10-02T10:50:24Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-02T10:50:33Z] [iter=2] AST store loaded triples=358753 load_secs=9 mem_mb=595 MB
+[2026-10-02T10:50:33Z] [iter=2] Step 2: Finding LSP targets mem_mb=595 MB
+[2026-10-02T10:50:33Z] [iter=2] LSP targets found call_sites=2906 imports=90 extends=0 implements=0 secs=1
+[2026-10-02T10:50:34Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=595 MB
+[2026-10-02T10:50:35Z] [iter=2] Position index built positions=20081 nodes_with_types=24712 secs=1 mem_mb=595 MB
+[2026-10-02T10:50:35Z] [iter=2] Step 3: Starting LSP resolution mem_mb=595 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T10:50:35Z] [iter=2] Resolving target type target_type=call_site count=2906
+[2026-10-02T10:51:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=2 resolved=30 errors=60 current=Tests/qrgoTests/MenuBarUpdateCoordinatorTests.swift
+[2026-10-02T10:51:44Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=5 resolved=175 errors=292 current=Sources/qrgo/QRGoRunner.swift
+[2026-10-02T10:52:14Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=7 resolved=211 errors=544 current=Tests/qrgoTests/ShellTests.swift
+[2026-10-02T10:53:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=11 resolved=320 errors=722 current=Sources/qrgo/Helpers/IsolatedProcessRunner.swift
+[2026-10-02T10:53:59Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.6 files_done=13 resolved=395 errors=883 current=Sources/qrgo/Helpers/AndroidEmulatorHelper.swift
+[2026-10-02T10:54:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=17 resolved=516 errors=1137 current=Sources/qrgo/MenuBarUpdateCoordinator.swift
+[2026-10-02T10:55:09Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=20 resolved=528 errors=1273 current=Sources/qrgo/Helpers/MenuBarSettingsStore.swift
+[2026-10-02T10:55:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=23 resolved=551 errors=1372 current=Sources/qrgo/Helpers/MenuBarInstanceLock.swift
+[2026-10-02T10:56:27Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=37 resolved=689 errors=1530 current=Sources/qrgo/Helpers/MenuBarLaunchHelper.swift
+[2026-10-02T10:56:55Z] [iter=2] Target type resolved target_type=call_site resolved=736 errors=1579 secs=380 mem_mb=595 MB
+[2026-10-02T10:56:55Z] [iter=2] Resolving target type target_type=import_statement count=90
+[2026-10-02T10:57:06Z] [iter=2] HEARTBEAT target_type=import_statement elapsed_min=6.7 files_done=0 resolved=0 errors=0 current=Tests/qrgoTests/TargetActionTests.swift
+[2026-10-02T10:57:30Z] [iter=2] Target type resolved target_type=import_statement resolved=47 errors=0 secs=35 mem_mb=595 MB
+[2026-10-02T10:57:44Z] [iter=2] Step 5: Writing final enrichment file triples=21401
+[2026-10-02T10:57:44Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/450bf8305aa4a11e56b380686839b41dfe2efcda.nq.gz size_kb=419
+[2026-10-02T10:57:44Z] [iter=2] PHASE END: enrich elapsed_s=440 elapsed_min=7.3 total_triples=21401
